@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>History</title>
+  <link rel="stylesheet" type="text/css" href="../styles/history.css">
+</head>
+<body>
+	<div class="container header">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="text-center" style="margin-bottom: 40px;">
+					<img height=150 width=150 src="../images/ecosurf_logo.png" />
+				</div>
+				<div class="jumbotron" style="background-color: green;color:white;">
+					<h2>
+						EcoSurf
+					</h2>
+					<p>
+						A web standard and initiative to increase the sustainability of the internet. We want to develop a tool and services for companies to analyze and offset the impact of their website on the environment and publicize their status as a carbon-neutral web-presence. 
+					</p>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="jumbotron card">
+					<div class="inner-text">
+						<h2>
+							Carbon Emitted
+						</h2>
+						<h1 id="carbon-score"></h1> 
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="jumbotron card">
+					<div class="inner-text">
+						<h2>
+							Donate to offset
+						</h2>
+						<h1 class="dollar-amount">$1000</h1>
+						<p><a class="btn btn-success btn-large donate-btn" href="http://www.carbonfund.org" style="color:white;">Donate</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="jumbotron card">
+					<div class="inner-text">
+						<h3>
+							Offender of the Week (Netflix.com)
+						</h3>
+							<h2>
+								<a href="https://twitter.com/intent/tweet?screen_name=netflix&ref_src=twsrc%5Etfw&text=We noticed your environmental impact is increasing... follow the link to fix it&hashtags=socialgood,demo,startupweekend&url=http://aircert.webflow.io" class="btn btn-large btn-success" data-show-count="false">Tweet to @Netflix</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+							</h2> 
+						</div>
+				</div>
+			</div>
+			<div class="col-md-12">
+				<div class="text-center" style="margin-bottom: 40px;">
+					<img src="../images/Banner-Ad.png" />
+				</div>
+			</div>
+
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<table class="table table-striped">
+					<thead>
+						<tr>
+							<th>
+								Domain
+							</th>
+							<th>
+								Page Title
+							</th>
+							<th>
+								Visit Count
+							</th>
+							<th>
+								CO<sub>2</sub>
+							</th>
+						</tr>
+					</thead>
+					<tbody id="history">
+						
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<template id="historyTemplate">
+			<tr>
+				<td class="request">
+				</td>
+				<td class="domain">
+				</td>
+				<td class="count">
+				</td>
+				<td class="score">
+				</td>
+			</tr>
+		</template>
+	</div>
+	
+  <script src="../scripts/history.js"></script>
+</body>
+</html>
