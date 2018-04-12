@@ -1,4 +1,5 @@
 # ecosurf
+<<<<<<< HEAD
 
 Eco Friendly carbon offset finder
 
@@ -68,9 +69,3 @@ if(process.env.NODE_ENV === 'development'){
   console.log('We are in development mode!');
 }
 ```
-
-
-
-
-
-
