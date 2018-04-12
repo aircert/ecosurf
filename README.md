@@ -1,6 +1,4 @@
 # ecosurf
-<<<<<<< HEAD
-
 Eco Friendly carbon offset finder
 
 ## Installation
